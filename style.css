@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gabarito", serif;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    align-items: center;
+}
+.Navbar__S1__Title{
+    color: blueviolet;
+}
+.Navbar__S2{
+    width: 60%;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+.Navbar__S2 input{
+    width: 100%;
+    border: none;
+}
+.Navbar__S2 input:focus{
+    outline: none;
+}
+.Navbar__S3{
+    display: flex;
+    gap: 10px;
+}
+.Categories{
+    display: flex;
+    justify-content: space-around;
+    border-bottom:  solid black 1px;
+    padding: 10px;
+}
+.Categories p{
+    background-color: #6D28D2;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    color: white;
+    border-radius: 30px;   
+}
+.Section_Main img{
+    width: 100%;
+}
+.Coursecard{
+    width: 250px;
+}
+.Coursecard img{
+    width: 100%;
+    cursor: pointer;
+}
+.Recomended_Container{
+    width: 100%;
+flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.Recomended_Courses{
+    width: 100%;
+}
+.Recomended_Courses h1{
+    margin-bottom: 10px;
+}
+.Recomended_Courses P{
+    margin-bottom: 10px;
+}
+.Topic__Title p{
+    border: solid black 1px;
+padding: 10px;
+margin: 10px;
+flex-grow: 1;
+flex-basis: 25%;
+}
+.Topic__Title{
+display: flex;
+flex-wrap: wrap;
+
+}
+.Footer{
+background-color: black;
+color:white
+}
+.Footer__one{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.Footer__two{
+    display: flex;
+    justify-content: space-between;
+}
+.Footer__one p{
+margin: 20px;
+
+}
+
+
