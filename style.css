@@ -38,6 +38,7 @@ body {
 }
 .Categories{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     border-bottom:  solid black 1px;
     padding: 10px;
