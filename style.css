@@ -132,8 +132,9 @@ border-radius: 5px;
     width: 100%;
 flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
+
 .Recomended_Courses{
     width: 100%;
 }
@@ -150,6 +151,13 @@ margin: 10px;
 flex-grow: 1;
 flex-basis: 25%;
 }
+
+.Topic__Title p:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+}
+
 .Topic__Title{
 display: flex;
 flex-wrap: wrap;
@@ -158,6 +166,15 @@ flex-wrap: wrap;
 .Footer{
 background-color: black;
 color:white
+
+}
+
+
+.Footer p:hover{
+background-color:white;
+opacity: 0.5;
+color:black;
+cursor: pointer;
 }
 .Footer__one{
     display: flex;
