@@ -73,7 +73,7 @@ cursor: pointer;
 .Categories p{
     background-color: #6D28D2;
     padding: 10px;
-    border-bottom: solid black 1px;
+    border-bottom: solid black 2px;
     color: white;
     border-radius: 30px;  
     cursor: pointer; 
